@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <title>Blog Home Page</title>
+</head>
+
+<body>
+    <img src="assets/img/banner.jpg" alt="Banner Image" class="banner-image">
+    <header class="header box">
+
+        <h1>My DIY Coding Blog</h1>
+        <nav class="nav bar">
+            <ul>
+                <li><a href="blog.html">Welcome</a></li>
+                <li><a href="././pages/post.html">Blog</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#comment">Leave a Comment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="content box">
+        <section id="welcome" class="welcome">
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <h2>Welcome</h2>
+                    <p>
+                        Hello Friend, <br />
+
+                        Welcome to my little corner of the web, where I’m diving into the
+                        world of front end development. I’m a beginner on this exciting
+                        journey, and this blog is one of my projects. This was in fact one of
+                        my projects but instead of using
+                        <b>"Lorem ipsum dolor sit amet consectetur adipisicing elit"</b> for my entire blog, I
+                        figured it would be neat to share my ups, downs, and everything in
+                        between. Whether you’re here to learn with me, laugh at my coding
+                        mishaps, or just enjoy some lighthearted tech talk, you’re in the
+                        right place. Let’s have some fun and make the web a prettier place
+                        together!
+                    </p>
+                </div>
+
+
+
+                <figure>
+                    <figcaption>
+                        <img src="assets/img/splineAvatar2.png" alt="Welcome Image" class="welcome-image">
+                        <b class="figure-number"> Figure 1.</b> This avatar was created in a application called Spline
+                        Design.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <div id="blog" class="blog feed">
+            <h2>Blog Feed</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://picsum.photos/100" alt="Card 1 Image" class="card-image">
+                    <h3>Lorem 1</h3>
+                    <p>This is the content of the first card, which is Lorem Picsum similar to lorem ipsum, except it's
+                        photos.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/splineAvatar2.png" alt="Card 2 Image" class="card-image">
+                    <h3><a href="././pages/post.html">Spline</a></h3>
+                    <p>This is my first time learning Spline! This avatar was super fun and challenging! I don't have
+                        full animation to this image yet, but in due time!</p>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/100" alt="Card 3 Image" class="card-image">
+                    <h3>Picsum 3</h3>
+                    <p>This is the content of the third card, which is a Lorem Picsum similar to lorem ipsum. I will
+                        updates these cards as I progress.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Thank you for visiting my blog!! <br>
+                I'm a passionate beginner in the world of web development, currently honing my skills through the
+                Udacity Frontend Web Developer Nanodegree program. <br> This blog started as one of my projects, but
+                I've decided to take it further and use it as a platform to implement and showcase the knowledge I've
+                gained. While I'm still learning, I'm enthusiastic and ready to take on the challenges ahead. Join me on
+                this journey as I share my progress, projects, and insights into frontend web development.
+
+                <br>
+                I appreciate your feedback! Please leave comments, suggestions, or
+                questions. Your input is appreciated to me as I continue to learn and grow.
+            </p>
+        </div>
+
+        <section id="comment">
+            <h2>Leave a Comment</h2>
+
+            <form action="https://formspree.io/f/xqazzzew" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit" id="button">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer box">
+        <p>&copy; 2024 Danielle Turner</p>
+    </footer>
+</body>
+
+</html>
